@@ -1,2 +1,2 @@
 Esquema, Tabla, Columna, Schema, Table, Column
-DimNomina,	ClasesNomina,	ClaseNomina,
+DimNomina,	ClasesNomina,	ClaseNomina, Payroll, PayrollClasses, PayrollClasses
