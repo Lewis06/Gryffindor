@@ -1,2 +1,12 @@
 Esquema, Tabla, Columna, Schema, Table, Column
 DimNomina,	ClasesNomina,	ClaseNomina, Payroll, PayrollClasses, PayrollClasses
+Seguridad,	UsuariosAutorizadosClaseNomina,	ClasesNominaID,	Security,	AuthorizedUsersPayrollClass,	PayrollClassID
+Seguridad,	UsuariosAutorizadosClaseNomina,	UsuarioID,	Security,	AuthorizedUsersPayrollClass,	UserID
+Seguridad,	Usuarios,	DimEnd,	Security,	Users,	DimEnd
+Seguridad,	Usuarios,	DimHash,	Security,	Users,	DimHash
+Seguridad,	Usuarios,	DimStart,	Security,	Users, DimStart
+Seguridad,	Usuarios,	ETLGuid,	Security,	Users,	ETLGuid
+Seguridad,	Usuarios,	Usuario,	Security,	Users,	User
+Seguridad,	Usuarios,	UsuarioID,	Security,	Users,	UserID
+Seguridad,	UsuariosAutorizadosCompania,	UsuarioID,	Security,	AuthorizedUsersCompany,	UserID
+Seguridad,	UsuariosAutorizadosCompania, CompaniaID,	Security,	AuthorizedUsersCompany,	CompanyID
